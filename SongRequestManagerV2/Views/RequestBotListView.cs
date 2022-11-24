@@ -657,6 +657,7 @@ namespace SongRequestManagerV2.Views
             catch (Exception e) {
                 Logger.Error(e);
             }
+            /* Gedda
             var anyUpdate = await this._updateChecker.CheckUpdate(Plugin.MetaData);
             if (anyUpdate) {
                 this.AnyUpdate = true;
@@ -666,6 +667,7 @@ namespace SongRequestManagerV2.Views
             else {
                 this.AnyUpdate = false;
             }
+            */
         }
 
         #endregion
